@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "notion": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "./mcp-server/index.js"
+      ],
+      "env": {
+        "NOTION_API_KEY": "${NOTION_API_KEY}"
+      }
+    }
+  }
+}

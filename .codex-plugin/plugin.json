@@ -1,0 +1,42 @@
+{
+  "name": "notion-workspace",
+  "version": "1.0.0+codex.20260623090432",
+  "description": "Connect Codex to your Notion workspace - search, read, create, and manage pages and databases",
+  "author": {
+    "name": "Notion Workspace Plugin (Community)"
+  },
+  "homepage": "https://github.com/your-username/notion-workspace-codex",
+  "repository": "https://github.com/makenotion/claude-code-notion-plugin",
+  "license": "MIT",
+  "keywords": [
+    "notion",
+    "workspace",
+    "knowledge",
+    "docs",
+    "database",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Notion Workspace",
+    "shortDescription": "Notion workspace integration for Codex",
+    "longDescription": "Connect Codex to your Notion workspace. Search pages, query databases, create and update content, capture knowledge, and manage tasks \u2014 all powered by Notion's official MCP server.",
+    "developerName": "Notion (ported to Codex)",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://www.notion.so/",
+    "privacyPolicyURL": "https://www.notion.so/privacy",
+    "termsOfServiceURL": "https://www.notion.so/terms",
+    "defaultPrompt": [
+      "Search my Notion workspace for project notes.",
+      "Create a new page in my Notion workspace.",
+      "Query my Notion task database for open items."
+    ],
+    "brandColor": "#000000"
+  }
+}
