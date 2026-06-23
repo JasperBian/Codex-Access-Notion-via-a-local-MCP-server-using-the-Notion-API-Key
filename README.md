@@ -1,6 +1,27 @@
 # Notion Workspace - Codex Plugin
 
 将你的 Notion 工作区与 Codex 连接。搜索页面、查询数据库、创建和更新内容 — 一切在对话中完成。
+Codex-Access-Notion-via-a-local-MCP-server-using-the-Notion-API-Key
+Notion Workspace Codex Plugin — Connect your Notion workspace to Codex and manage your content through natural conversation. Here's a GitHub repository description in English:
+
+Notion Workspace Codex Plugin — Connect your Notion workspace to Codex and manage your content through natural conversation.
+
+This plugin brings Notion's official API into Codex via a local MCP server, enabling you to search pages, query databases, create and update content, and capture knowledge — all without leaving your coding workflow.
+
+Key capabilities:
+
+Search your entire Notion workspace by keyword
+Read page content, block children, and database entries
+Create pages under any parent or insert rows into databases
+Update existing pages with new content blocks or property changes
+Append formatted text, lists, code blocks, and more
+The plugin ships with five built-in Skills that guide Codex on how to work intelligently with Notion: Knowledge Capture, Meeting Intelligence, Research Documentation, Spec-to-Implementation tracking, and a general workspace integration guide.
+
+Security: Your Notion API key is never stored in code. It's read from the NOTION_API_KEY environment variable at runtime, making it safe to share and version-control this repository.
+
+Quick setup: Provide your Notion API key (free from notion.so/my-integrations), share it with your target pages, install the plugin in Codex, and start using Notion through natural language prompts.
+
+Notion 工作空间 Codex 插件 将你的 Notion 工作空间接入 Codex，通过自然对话管理全部内容。 本插件依托本地 MCP 服务，对接 Notion 官方 API。你无需切换开发工作流，就能检索页面、查询数据库、新建 / 修改内容、沉淀知识库。 核心功能 检索：关键词搜索整个 Notion 工作空间 读取：查看页面正文、子内容块、数据库条目 创建：在任意父页面新建页面、向数据库插入数据行 更新：给已有页面新增内容块、修改条目属性 追加：插入格式化文本、列表、代码块等多种内容 插件内置 5 套预设能力模板，引导 Codex 智能操作 Notion：知识采集、会议信息整理、调研文档归档、需求落地进度追踪，以及通用工作空间接入指南。 安全机制 你的 Notion 密钥不会硬编码在代码中。程序运行时从环境变量NOTION_API_KEY读取密钥，仓库代码可放心开源、提交版本管理，不存在密钥泄露风险。 快速部署 前往 notion.so/my-integrations 免费生成 Notion API 密钥 将集成权限授予需要操作的 Notion 页面 在 Codex 中安装本插件 完成后即可通过自然语言指令操控 Notion。
 
 ## 📦 安装
 
